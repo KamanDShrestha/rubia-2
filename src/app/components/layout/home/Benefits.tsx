@@ -103,16 +103,16 @@ const Benefits = () => {
                 alt="Social Media Names"
                 width={230}
                 height={190}
-                className="w-20 sm:w-[160px] sm:right-6 sm:left-[-6%] left-[-2%] bottom-[0%]  lg:w-[210px] absolute lg:bottom-14 lg:left-[22px] z-10"
+                className="w-20 sm:w-[160px] sm:right-6 sm:left-[-6%] left-[-2%] bottom-[0%]  lg:w-[216px] absolute lg:bottom-16 lg:left-[22px] z-10"
               />
 
               {/* "ANY SOCIAL MEDIA" Text */}
               <Image
                 src="/images/benefits/ANY SOCIAL MEDIA.png"
                 alt="ANY SOCIAL MEDIA"
-                width={130}
+                width={140}
                 height={150}
-                className=" sm:w-20 sm:left-[-30px] absolute w-14 left-[-1.5%] lg:top-[135px] lg:left-[22px] lg:w-[130px] z-0 "
+                className="sm:w-20 sm:left-[-30px] absolute w-14 left-[-1.5%] lg:top-[135px] lg:left-[12px] lg:w-[140px] z-0"
               />
             </div>
 
