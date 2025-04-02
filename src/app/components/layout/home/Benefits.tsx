@@ -69,8 +69,8 @@ const Benefits = () => {
               </div>
             </div>
 
-            <div className="rounded-[24px] relative py-[38px] group px-[24px] bg-[#0E86FF80] mt-12 lg:mt-0 flex justify-center overflow-hidden">
-              {/* Ellipse */}
+            {/* <div className="rounded-[24px] relative py-[38px] group px-[24px]cmt-12 lg:mt-0 flex justify-center overflow-hidden">
+             
               <Image
                 className="absolute top-20 right-[132px] group-hover:z-50 opacity-0 group-hover:opacity-100 transform ease-in-out duration-300  translate-y-[160px] group-hover:translate-y-0"
                 src={"/images/benefits/ellipse.png"}
@@ -86,7 +86,36 @@ const Benefits = () => {
                 height={418}
                 className="transition-transform z-10 duration-300 ease-in-out transform scale-100 group-hover:scale-[2] group-hover:translate-y-[15%] group-hover:object-[left_1%]"
               />
+            </div> */}
+            <div className="relative flex justify-center items-center  max-w-[760px] my-8 lg:my-0">
+              {/* Tablet Screen */}
+              <Image
+                src="/images/benefits/Tablet Screen.png"
+                alt="Tablet Screen"
+                width={760}
+                height={600}
+                className="w-[80%] sm:w-[90%] lg:w-[720px] relative z-10 lg:left-32 lg:bottom-20"
+              />
+
+              {/* Social Media Names */}
+              <Image
+                src="/images/benefits/Socials names.png"
+                alt="Social Media Names"
+                width={230}
+                height={190}
+                className="w-20 sm:w-[160px] sm:right-6 sm:left-[-6%] left-[-2%] bottom-[0%]  lg:w-[210px] absolute lg:bottom-14 lg:left-[22px] z-10"
+              />
+
+              {/* "ANY SOCIAL MEDIA" Text */}
+              <Image
+                src="/images/benefits/ANY SOCIAL MEDIA.png"
+                alt="ANY SOCIAL MEDIA"
+                width={130}
+                height={150}
+                className=" sm:w-20 sm:left-[-30px] absolute w-14 left-[-1.5%] lg:top-[135px] lg:left-[22px] lg:w-[130px] z-0 "
+              />
             </div>
+
           </div>
         </div>
       </div>
