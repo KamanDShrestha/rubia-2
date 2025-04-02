@@ -35,23 +35,21 @@ const SolutionsPage = () => {
               </h1>
 
               <p className="mt-4 text-lg">
-                We create custom strategies.
+                We’ll help you create a complete strategy. Every bit, every detail, chose your platforms and watch yourself become a professional in weeks.
               </p>
 
               <div className="pl-4 text-lg flex flex-col space-y-5 pt-8">
                 <PricingPoint>
-                  <span className="font-bold">Brand Assessment: </span> Identify
-                  what makes you different.
+                  <span className="font-bold">Brand Assessment: </span>Identify and create things that make you unique.
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Finding Your Edge: </span>{" "}
-                  Highlight what sets you apart in your industry.
+                  <span className="font-bold">Work With The Platform: </span>{" "}
+                  Learn how to use the algorithm to your advantage.
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Maximizing Impact: </span> Turn
-                  small audiences into large, loyal communities.
+                  <span className="font-bold">Maximizing Conversion: </span> Funnel your audience into channels that generate income.
                 </PricingPoint>
               </div>
             </div>
@@ -120,23 +118,22 @@ const SolutionsPage = () => {
               </h1>
 
               <p className="mt-4 text-lg">
-                We help you build real relationships with your audience:
+                Need to promote a project, product or something else? This is the one for you.
               </p>
 
               <div className="pl-4 text-lg flex flex-col space-y-5 pt-8">
                 <PricingPoint>
-                  <span className="font-bold">Brand Assessment: </span> Identify
-                  what makes you different.
+                  <span className="font-bold">Explore Possibilities:</span> Evaluate all possible ways to promote your project.
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Finding Your Edge: </span>{" "}
-                  Highlight what sets you apart in your industry.
+                  <span className="font-bold">Step By Step Plan: </span>{" "}
+                  Create an effective plan that maximizes ROI.
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Maximizing Impact: </span> Turn
-                  small audiences into large, loyal communities.
+                  <span className="font-bold">Execution: </span>  Execute each step perfectly with our help, creating a snowball effect.
+
                 </PricingPoint>
               </div>
             </div>
@@ -179,23 +176,23 @@ const SolutionsPage = () => {
               </h1>
 
               <p className="mt-4 text-lg">
-                Stand out with a strong, unique brand identity
+                Start getting some actual results, by maximizing your advantages over the competition.
               </p>
 
               <div className="pl-4 text-lg flex flex-col space-y-5 pt-8">
                 <PricingPoint>
-                  <span className="font-bold">Brand Assessment: </span> Identify
-                  what makes you different.
+                  <span className="font-bold">Explore Niches: </span> Analyze and explore different possible niches for your persona.
+
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Finding Your Edge: </span>{" "}
-                  Highlight what sets you apart in your industry.
+                  <span className="font-bold">Upgrade Your Personality: </span>{" "}
+                  Recreate your personality to stand out.
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Maximizing Impact: </span> Turn
-                  small audiences into large, loyal communities.
+                  <span className="font-bold">Analyze Your Target Audience:</span> Get to know your audience, and feed them the right content.
+
                 </PricingPoint>
               </div>
             </div>
@@ -259,8 +256,7 @@ const SolutionsPage = () => {
 
               <div className="pl-4 text-lg flex flex-col space-y-5 pt-8">
                 <PricingPoint>
-                  <span className="font-bold">24/7 Engagement: </span> Respond
-                  to messages and comments quickly.
+                  <span className="font-bold">24/7 Engagement: </span> We’ll help you respond to messages and comments quickly.
                 </PricingPoint>
 
                 <PricingPoint>
@@ -269,8 +265,7 @@ const SolutionsPage = () => {
                 </PricingPoint>
 
                 <PricingPoint>
-                  <span className="font-bold">Community Building: </span> Keep
-                  your audience engaged and interactive.
+                  <span className="font-bold">Community Building: </span>  Keep your audience engaged and create a loyal cult.
                 </PricingPoint>
               </div>
             </div>
@@ -316,7 +311,8 @@ const SolutionsPage = () => {
       <div className="py-[96px] w-full mt-12 md:mt-0 bg-brand-light">
         <div className="container flex flex-col justify-center items-center">
           <h1 className="text-4xl text-center font-semibold text-brand-dark">
-            Take your brand to the next level{" "}
+            Start earning real money
+            {" "}
           </h1>
 
           <div className="mt-8">
