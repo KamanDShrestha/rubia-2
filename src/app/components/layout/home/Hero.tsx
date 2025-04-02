@@ -30,21 +30,21 @@ const Hero = () => {
             width={200}
             height={300}
             alt='cute-character'
-            className='absolute top-[-40px] left-[-55px]  '
+            className='absolute top-[-40px] left-[-55px] hidden lg:block  '
           />
           <Image
             src={'/images/hero/phone-screen.png'}
             width={200}
             height={300}
             alt='phone-screen'
-            className='absolute left-[-140px] bottom-[25px]'
+            className='absolute left-[-140px] bottom-[25px] hidden lg:block'
           />
           <Image
             src={'/images/hero/tablet-screen.png'}
             width={200}
             height={300}
             alt='tablet-screen'
-            className='absolute w-full'
+            className='lg:absolute w-full'
           />
           {/* <div
             className='
