@@ -25,7 +25,7 @@ const SolutionsPage = () => {
       <div className="max-w-[1440px] mx-auto">
         <div className="md:py-[64px]">
           <div className="md:flex items-center justify-between">
-            <div className="pl-4 md:pl-[128px] flex flex-col justify-start items-start text-left">
+            <div className="pl-4 lg:pl-[128px] flex flex-col justify-start items-start text-left">
               <div className="w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center">
                 <Image src="/icons/manage.svg" alt="" width={20} height={20} />
               </div>
@@ -64,37 +64,36 @@ const SolutionsPage = () => {
               />
             </div> */}
 
-            <div className="relative w-full max-w-[720px] h-[400px] md:h-[560px] mx-auto">
-              {/* Layer 1: Instagram Screenshot (Phone) - positioned on the right */}
-              <div className="absolute top-[25%] md:top-[0px] right-[0%] md:right-[40px] w-[125px] md:w-[320px] z-10">
+            <div className="relative w-full max-w-[720px] h-[300px] sm:h-[300px] md:h-[400px] lg:h-[560px] mx-auto">
+              {/* Layer 1: Instagram Screenshot (Phone) */}
+              <div className="absolute top-[13%] sm:top-[5%] md:top-[15%] lg:top-[5%] right-0 sm:right-4 md:right-8 lg:right-10 w-[33%] sm:w-[35%] md:w-[35%] lg:w-[38%] z-10">
                 <Image
                   src="/images/solutions/1/Insta screenshot.png"
                   alt="Instagram Screenshot"
                   width={320}
                   height={640}
-                  className="object-contain max-w-full h-auto md:h-[550px]"
+                  className="sm:h-[300px] md:h-[300px] lg:h-[520px]"
                 />
               </div>
 
-              {/* Layer 2: Front Card (Instagram post) - positioned on the left bottom */}
-              <div className="absolute bottom-[25%] md:bottom-[160px] left-[12%] md:left-[16px] w-[100px] md:w-[180px] z-20">
+              {/* Layer 2: Front Card (Instagram post) */}
+              <div className="absolute bottom-[22%] sm:bottom-[28%] md:bottom-[37%] lg:bottom-[33%] left-12 sm:left-4 md:left-[5%] lg:left-[6.5%] w-[27.78%] sm:w-[25%] md:w-[24%] lg:w-[22%] z-20">
                 <Image
                   src="/images/solutions/1/Front card.png"
                   alt="Front Card"
                   width={180}
                   height={180}
-                  className="object-contain max-w-full h-auto"
                 />
               </div>
 
-              {/* Layer 3: Girl Pointing - positioned in the center */}
-              <div className="absolute bottom-10 md:bottom-[-70px] left-1/2 -translate-x-1/2 md:left-[280px] w-[180px] md:w-[360px] z-10">
+              {/* Layer 3: Girl Pointing */}
+              <div className="absolute bottom-0 sm:bottom-4 md:top-[17%] lg:top-[10%] left-1/2 -translate-x-1/2 sm:left-[40%] md:left-[38%] lg:left-[38%] w-[50%] sm:w-[48%] md:w-[45%] lg:w-[50%] z-10">
                 <Image
                   src="/images/solutions/1/Girl pointing.png"
                   alt="Girl Pointing"
                   width={400}
                   height={650}
-                  className="object-contain max-w-full h-auto md:h-[650px]"
+                  className="sm:h-[280px] md:h-[300px] lg:h-[500px]"
                 />
               </div>
             </div>
@@ -140,24 +139,24 @@ const SolutionsPage = () => {
 
             {/* Image Section */}
             <div className="mt-5 relative flex flex-col items-center lg:items-start">
-              <div className="absolute -bottom-8 -left-5 z-10 md:-bottom-10 md:-left-10 lg:bottom-[-30px] lg:left-[-20px]">
+              <div className="absolute -bottom-8 -left-5 z-10 md:-bottom-10 md:-left-10 lg:bottom-[-30px] lg:left-[-20px] sm:bottom-[-10px] sm:left-[-10px]">
                 <Image
                   src="/images/solutions/2/Group 1.png"
                   alt="Animated character with barbell"
                   width={300}
                   height={350}
-                  className="w-[200px] h-auto md:w-[300px] lg:w-[400px]"
+                  className="w-[200px] h-auto sm:w-[250px] md:w-[60%] lg:w-[300px] xl:w-[350px]"
                 />
               </div>
 
               {/* iPad container */}
-              <div className="relative left-4 md:left-8 lg:left-[30px]">
+              <div className="relative left-4 md:left-6 lg:left-[30px] sm:left-[20px]">
                 <Image
                   src="/images/solutions/2/ipad.png"
                   alt="iPad device"
                   width={600}
                   height={450}
-                  className="w-auto h-auto sm:w-[400px] md:w-[600px] lg:w-[800px]"
+                  className="w-auto h-auto sm:w-[400px] md:w-[100%] lg:w-[800px]"
                 />
               </div>
             </div>
@@ -166,7 +165,7 @@ const SolutionsPage = () => {
 
         <div className="md:py-[64px]">
           <div className="md:flex items-center justify-between">
-            <div className="pl-4 md:pl-[128px] flex flex-col justify-start items-start text-left">
+            <div className="pl-4 lg:pl-[128px] flex flex-col justify-start items-start text-left">
               <div className="w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center">
                 <Image src="/icons/manage.svg" alt="" width={20} height={20} />
               </div>
@@ -206,32 +205,37 @@ const SolutionsPage = () => {
                 height={560}
               />
             </div> */}
-            <div className="mt-5 relative flex flex-col items-center lg:items-start">
-              <div className="absolute left-0 bottom-0 md:bottom-[-30px] z-10 md:left-[-70px]">
-                <Image
-                  src="/images/solutions/3/Woman.png"
-                  alt="Woman with tablet"
-                  width={200}
-                  height={200}
-                  className="w-[100px] h-[200px] md:w-[230px] md:h-[420px]"
-                />
-              </div>
-              <div className="absolute right-[-18px] md:right-0 bottom-0 z-10">
-                <Image
-                  src="/images/solutions/3/Man.png"
-                  alt="Man in sports attire"
-                  width={200}
-                  height={200}
-                  className="w-[160px] h-[200px] md:w-[280px] md:h-[400px]"
-                />
-              </div>
-              <div className="relative md:right-12">
+            <div className="relative flex justify-center items-center w-full py-8">
+              {/* Main container with the YouTube image */}
+              <div className="relative w-[100%] max-w-[800px] z-0">
                 <Image
                   src="/images/solutions/3/Youtube.png"
                   alt="YouTube interface"
-                  width={600}
-                  height={450}
-                  className="w-auto h-auto sm:w-[400px] md:w-[600px] lg:w-[800px]"
+                  width={800}
+                  height={394}
+                  className="object-contain w-full"
+                />
+              </div>
+
+              {/* Woman Image - positioned to the left */}
+              <div className="absolute left-0 bottom-5 z-10 transform translate-x-[-15%] sm:translate-x-[-15%] md:translate-x-[-25%] lg:translate-x-[-0%] md:bottom-8 lg:bottom-0">
+                <Image
+                  src="/images/solutions/3/Woman.png"
+                  alt="Woman with tablet"
+                  width={250}
+                  height={350}
+                  className="object-contain w-[133px] h-[210px] sm:w-[130px] sm:h-[220px] md:w-[180px] md:h-[190px] lg:w-[250px] lg:h-[420px]"
+                />
+              </div>
+
+              {/* Man Image - positioned to the right */}
+              <div className="absolute -right-6 sm:right-0 bottom-6 sm:bottom-0 z-10 transform translate-x-[5%] sm:translate-x-[15%] md:translate-x-[20%] lg:translate-x-[15%] lg:bottom-[-65px]">
+                <Image
+                  src="/images/solutions/3/Man.png"
+                  alt="Man in sports attire"
+                  width={240}
+                  height={580}
+                  className="object-contain w-[160px] h-[190px] sm:w-[150px] sm:h-[220px] md:w-[150px] md:h-[250px] lg:w-[330px] lg:h-[540px]"
                 />
               </div>
             </div>
@@ -299,7 +303,6 @@ const SolutionsPage = () => {
                   width={250}
                   height={500}
                   className="object-contain h-auto w-full max-w-full"
-
                 />
               </div>
             </div>
