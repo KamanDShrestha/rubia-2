@@ -33,7 +33,7 @@ const Solutions = () => {
   ];
 
   return (
-    <div className='container lg:pb-[116px]'>
+    <div className='container lg:pb-[116px] overflow-hidden'>
       {/* Header Section */}
       <header className='text-center md:text-left'>
         <h3 className='text-[#004E99] font-bold mb-3'>Solutions</h3>
@@ -48,9 +48,9 @@ const Solutions = () => {
         </p>
       </header>
 
-      <div className='mt-16 lg:flex lg:flex-row-reverse'>
+      <div className='mt-16 lg:flex lg:flex-row-reverse '>
         {/* Image Stacking with Animation */}
-        <div className='relative lg:w-3/5  h-[528px] lg:ml-[10%] mt-12 lg:mt-0'>
+        <div className='relative lg:w-3/5  h-[528px] lg:ml-[10%] mt-12 lg:mt-0 flex justify-center items-center '>
           {images.map((src, index) => {
             const isSelected = index === selected;
             const isBehind = index < selected;

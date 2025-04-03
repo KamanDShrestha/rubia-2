@@ -5,6 +5,15 @@ const Hero = () => {
   return (
     <div className='md:h-[calc(100vh-108px)] flex justify-center flex-col items-center'>
       <div className='container md:flex md:justify-between items-center flex-col-reverse lg:flex-row justify-center gap-5'>
+        <div className='block md:hidden'>
+          <img
+            src={'/images/hero/tablet-screen.png'}
+            width={200}
+            height={300}
+            alt='tablet-screen'
+            className=' w-full group-hover:scale-[1.1] group-hover:rotate-6 ease-out transition-all duration-300'
+          />
+        </div>
         <header className='text-center md:text-left'>
           <h1 className='text-6xl text-brand-dark leading-[64px] lg:leading-[72px]'>
             Turn Your <span className='font-bold italic'>Passion</span>{' '}
@@ -12,8 +21,9 @@ const Hero = () => {
             <span className='font-bold italic'> And Income</span>
           </h1>
 
-          <p className='max-w-[480px] mt-6 text-xl'>
-            We help aspiring and established influencers find their niche, grow their audience, and monetize their brand—without the guesswork.
+          <p className='md:max-w-[480px] mt-6 text-xl w-full'>
+            We help aspiring and established influencers find their niche, grow
+            their audience, and monetize their brand—without the guesswork.
           </p>
 
           <div className='mt-12'>
@@ -36,7 +46,7 @@ const Hero = () => {
             alt='phone-screen'
             className='absolute left-[-140px] bottom-[25px] hidden xl:block group-hover:scale-[1.1] group-hover:-rotate-6 ease-out transition-all duration-300'
           />
-          <Image
+          <img
             src={'/images/hero/tablet-screen.png'}
             width={200}
             height={300}

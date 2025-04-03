@@ -140,26 +140,29 @@ const SolutionsPage = () => {
             </div>
 
             {/* Image Section */}
-            <div className='mt-5 relative flex flex-col items-center lg:items-start'>
-              <div className='absolute -bottom-8 -left-5 z-10 md:-bottom-10 md:-left-10 lg:bottom-[-30px] lg:left-[-20px] sm:bottom-[-10px] sm:left-[-10px]'>
+            <div className='mt-5 relative flex flex-col items-center lg:items-start w-full'>
+              {/* iPad container */}
+              {/* <Image
+                src='/images/solutions/2/ipad.png'
+                alt='iPad device'
+                width={600}
+                height={450}
+                className=' w-auto h-auto sm:w-[400px] md:w-[100%] lg:w-[800px]'
+              /> */}
+              <div
+                className='relative w-full h-[450px] sm:h-[400px] md:h-[450px] lg:h-[600px] object-contain bg-cover bg-center'
+                style={{
+                  backgroundImage: "url('/images/solutions/2/ipad.png')",
+                }}
+              >
                 <Image
                   src='/images/solutions/2/Group 1.png'
                   alt='Animated character with barbell'
                   width={300}
                   height={350}
-                  className='w-[200px] h-auto sm:w-[250px] md:w-[60%] lg:w-[300px] xl:w-[350px]'
+                  className='absolute w-[300px] h-auto sm:w-[250px] md:w-[60%] lg:w-[300px] xl:w-[350px] -bottom-8 -left-8 md:-left-10'
                 />
-              </div>
-
-              {/* iPad container */}
-              <div className='relative left-4 md:left-6 lg:left-[30px] sm:left-[20px]'>
-                <Image
-                  src='/images/solutions/2/ipad.png'
-                  alt='iPad device'
-                  width={600}
-                  height={450}
-                  className='w-auto h-auto sm:w-[400px] md:w-[100%] lg:w-[800px]'
-                />
+                {/* Additional content can go here if needed */}
               </div>
             </div>
           </div>
