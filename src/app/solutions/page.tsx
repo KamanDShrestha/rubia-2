@@ -54,30 +54,20 @@ const SolutionsPage = () => {
               </div>
             </div>
 
-            {/* <div>
-              <Image
-                alt="Solution"
-                className="mt-8 md:mt-0 pr-4 md:pr-0 pl-4 md:pl-0"
-                src={"/images/solutions/1.png"}
-                width={720}
-                height={560}
-              />
-            </div> */}
-
-            <div className="relative w-full max-w-[720px] h-[300px] sm:h-[300px] md:h-[400px] lg:h-[560px] mx-auto">
+            <div className="relative w-full max-w-[720px] mx-auto lg:h-[560px]">
               {/* Layer 1: Instagram Screenshot (Phone) */}
-              <div className="absolute top-[13%] sm:top-[5%] md:top-[15%] lg:top-[5%] right-0 sm:right-4 md:right-8 lg:right-10 w-[33%] sm:w-[35%] md:w-[35%] lg:w-[38%] z-10">
+              <div className="absolute lg:top-[5%] lg:right-10 lg:w-[33%] z-10">
                 <Image
                   src="/images/solutions/1/Insta screenshot.png"
                   alt="Instagram Screenshot"
                   width={320}
                   height={640}
-                  className="sm:h-[300px] md:h-[300px] lg:h-[520px]"
+                  className="lg:h-[520px]"
                 />
               </div>
 
               {/* Layer 2: Front Card (Instagram post) */}
-              <div className="absolute bottom-[22%] sm:bottom-[28%] md:bottom-[37%] lg:bottom-[33%] left-12 sm:left-4 md:left-[5%] lg:left-[6.5%] w-[27.78%] sm:w-[25%] md:w-[24%] lg:w-[22%] z-20">
+              <div className="absolute lg:bottom-[30%] lg:left-[10.5%] z-20">
                 <Image
                   src="/images/solutions/1/Front card.png"
                   alt="Front Card"
@@ -87,13 +77,13 @@ const SolutionsPage = () => {
               </div>
 
               {/* Layer 3: Girl Pointing */}
-              <div className="absolute bottom-0 sm:bottom-4 md:top-[17%] lg:top-[10%] left-1/2 -translate-x-1/2 sm:left-[40%] md:left-[38%] lg:left-[38%] w-[50%] sm:w-[48%] md:w-[45%] lg:w-[50%] z-10">
+              <div className="absolute lg:top-[10%] lg:left-[20%] lg:w-[50%] z-10">
                 <Image
                   src="/images/solutions/1/Girl pointing.png"
                   alt="Girl Pointing"
                   width={400}
                   height={650}
-                  className="sm:h-[280px] md:h-[300px] lg:h-[500px]"
+                  className="lg:h-[500px]"
                 />
               </div>
             </div>
@@ -101,8 +91,6 @@ const SolutionsPage = () => {
 
           </div>
         </div>
-
-
 
         <div className="md:py-[64px]">
           <div className="md:flex items-center justify-between flex-row-reverse">
@@ -196,15 +184,6 @@ const SolutionsPage = () => {
               </div>
             </div>
 
-            {/* <div>
-              <Image
-                alt="Solution"
-                className="mt-8 md:mt-0 pr-4 md:pr-0 pl-4 md:pl-0"
-                src={"/images/solutions/3.png"}
-                width={720}
-                height={560}
-              />
-            </div> */}
             <div className="relative flex justify-center items-center w-full py-8">
               {/* Main container with the YouTube image */}
               <div className="relative w-[100%] max-w-[800px] z-0">
