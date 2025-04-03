@@ -22,50 +22,27 @@ const Hero = () => {
         </header>
 
         <div className='hidden md:block relative  h-full group w-[45%]'>
-          {/* Before Image as Background */}
-
           <Image
             src={'/images/hero/cute-character.png'}
             width={200}
             height={300}
             alt='cute-character'
-            className='absolute top-[-40px] left-[-55px] hidden xl:block  '
+            className='absolute top-[-40px] left-[-55px] hidden xl:block group-hover:-translate-y-16 ease-out transition-all duration-300'
           />
           <Image
             src={'/images/hero/phone-screen.png'}
             width={200}
             height={300}
             alt='phone-screen'
-            className='absolute left-[-140px] bottom-[25px] hidden xl:block'
+            className='absolute left-[-140px] bottom-[25px] hidden xl:block group-hover:scale-[1.1] group-hover:-rotate-6 ease-out transition-all duration-300'
           />
           <Image
             src={'/images/hero/tablet-screen.png'}
             width={200}
             height={300}
             alt='tablet-screen'
-            className='lg:absolute w-full'
+            className='lg:absolute w-full group-hover:scale-[1.1] group-hover:rotate-6 ease-out transition-all duration-300'
           />
-          {/* <div
-            className='
-            rounded-xl bg-cover 
-            bg-center 
-            transition-transform duration-300 ease-out 
-
-            '
-            style={{
-              backgroundImage: "url('/images/hero/phone-screen.png')",
-            }}
-          ></div> */}
-          {/* <div
-            className='absolute top-[100px] right-[177px] w-[333px] h-[309px] shadow-[0px_8px_64px_-12px_#10182824] 
-            rounded-xl bg-cover 
-            bg-center 
-            transition-transform duration-300 ease-out 
-            group-hover:scale-[0.75] group-hover:translate-x-[-60px] group-hover:translate-y-[60px]'
-            style={{
-              backgroundImage: "url('/images/hero/phone-screen.png')",
-            }}
-          ></div> */}
 
           {/* After Image as Background */}
         </div>
