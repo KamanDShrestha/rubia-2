@@ -135,13 +135,13 @@ const SolutionsPage = () => {
             {/* Image Section */}
             <div className='mt-5 relative flex flex-col items-center'>
               <div className='relative left-4'>
-                <div className='absolute -bottom-8 -left-5 z-10'>
+                <div className='absolute -bottom-8 -left-5 z-10 w-[54%]'>
                   <Image
                     src='/images/solutions/2/Group 1.png'
                     alt='Animated character with barbell'
                     width={300}
                     height={350}
-                    className='w-full h-auto '
+                    className='w-full h-auto lg:h-[80%]'
                   />
                 </div>
 
@@ -160,7 +160,7 @@ const SolutionsPage = () => {
 
         <div className='md:py-[64px]'>
           <div className='md:flex items-center justify-between'>
-            <div className='pl-4 lg:pl-[128px] flex flex-col justify-start items-start text-left'>
+            <div className='pl-4 md:pl-[96px] flex flex-col justify-start items-start text-left'>
               <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
                 <Image src='/icons/manage.svg' alt='' width={20} height={20} />
               </div>
@@ -203,9 +203,9 @@ const SolutionsPage = () => {
                 height={560}
               />
             </div> */}
-            <div className='relative flex justify-center items-center w-full py-8 max-w-[800px] '>
+            <div className='relative flex justify-center items-center w-full py-8 max-w-[720px] '>
               {/* Main container with the YouTube image */}
-              <div className='relative w-[80%] z-0'>
+              <div className='relative w-full z-0'>
                 <Image
                   src='/images/solutions/3/Youtube.png'
                   alt='YouTube interface'
