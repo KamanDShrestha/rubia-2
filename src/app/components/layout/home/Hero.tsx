@@ -4,7 +4,7 @@ import Button from '../../core/Button';
 const Hero = () => {
   return (
     <div className='md:h-[calc(100vh-108px)] flex justify-center flex-col items-center'>
-      <div className='container md:flex md:justify-between items-center flex-col-reverse lg:flex-row justify-center gap-5'>
+      <div className='container md:flex md:justify-between items-center flex-col-reverse lg:flex-row justify-center space-y-12 lg:space-y-0'>
         <div className='block md:hidden'>
           <img
             src={'/images/hero/tablet-screen.png'}
