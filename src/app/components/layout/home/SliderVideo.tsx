@@ -36,8 +36,8 @@ const SliderVideo = () => {
             You do you! We handle the rest
           </h1>
           <p className="mt-5 text-xl">
-            We’re always on the lookout for passionate, dynamic, and talented
-            individuals.
+            We’ll give you the skills and tools to utilize your potential to the max.
+
           </p>
         </header>
 

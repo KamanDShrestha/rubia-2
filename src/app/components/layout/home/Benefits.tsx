@@ -90,7 +90,7 @@ const Benefits = () => {
             <div className="relative flex justify-center items-center  max-w-[760px] my-8 lg:my-0">
               {/* Tablet Screen */}
               <Image
-                src="/images/benefits/Tablet Screen.png"
+                src="/images/benefits/tablet screen.png"
                 alt="Tablet Screen"
                 width={760}
                 height={600}

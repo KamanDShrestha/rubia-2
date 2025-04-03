@@ -4,7 +4,7 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const fadeInVariants = {
-  hidden: { opacity: 0, y: 20 }, 
+  hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } },
 };
 
@@ -22,9 +22,7 @@ const Review = () => {
           className="text-brand-light text-2xl lg:text-4xl text-center max-w-[300px] lg:max-w-[1088px]"
           variants={fadeInVariants}
         >
-          I went from 500 followers to 50K in just a few months! The team
-          handled everything, from strategy to brand deals. Now, I’m earning
-          consistently!
+          I went from 3,000 followers to 18K in just 4 weeks! The team handled everything, from strategy to my first clothing sponsorships. I didn’t have to pay anything up front and now my earnings are consistent and growing!
         </motion.h1>
 
         {/* Reviewer Info */}

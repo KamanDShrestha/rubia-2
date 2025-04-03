@@ -43,8 +43,8 @@ const Solutions = () => {
         </h1>
 
         <p className='text-xl md:w-2/3'>
-          Powerful, self-serve product and growth analytics to help you convert,
-          engage, and retain more users. Trusted by over 4,000 startups.
+          Powerful, tailor made approach to each and every challenge. We’ll help
+          you make your goals and ideas a reality.
         </p>
       </header>
 

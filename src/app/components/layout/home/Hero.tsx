@@ -13,8 +13,7 @@ const Hero = () => {
           </h1>
 
           <p className='max-w-[480px] mt-6 text-xl'>
-            We help aspiring influencers find their niche, grow their audience,
-            and monetize their brand—without the guesswork.
+            We help aspiring and established influencers find their niche, grow their audience, and monetize their brand—without the guesswork.
           </p>
 
           <div className='mt-12'>
