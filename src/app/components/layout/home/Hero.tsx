@@ -3,7 +3,7 @@ import Button from '../../core/Button';
 
 const Hero = () => {
   return (
-    <div className='md:h-[calc(100vh-108px)] flex justify-center flex-col items-center'>
+    <div className='2xl:h-[calc(100vh-108px)] md:h-[700px] flex justify-center flex-col items-center'>
       <div className='container md:flex md:justify-between items-center flex-col-reverse lg:flex-row justify-center space-y-12 lg:space-y-0'>
         <div className='block md:hidden'>
           <img
@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
         <header className='text-center md:text-left'>
-          <h1 className='text-6xl text-brand-dark leading-[64px] lg:leading-[72px]'>
+          <h1 className='text-4xl md:text-6xl text-brand-dark leading-none lg:leading-[72px]'>
             Turn Your <span className='font-bold italic'>Passion</span>{' '}
             <br></br> Into Influence - <br></br>
             <span className='font-bold italic'> And Income</span>
