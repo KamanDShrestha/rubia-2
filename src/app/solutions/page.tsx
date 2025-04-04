@@ -242,7 +242,7 @@ const SolutionsPage = () => {
         <div className='md:py-[64px]'>
           <div className='flex flex-col items-center justify-between md:flex-row-reverse'>
             {/* Text Section */}
-            <div className=' flex flex-col justify-start items-start text-left pl-4 lg:pl-0 lg:pb-24'>
+            <div className=' flex flex-col justify-start items-start text-left pl-4 sm:pl-0 lg:pb-24'>
               <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
                 <Image src='/icons/manage.svg' alt='' width={20} height={20} />
               </div>
@@ -273,76 +273,81 @@ const SolutionsPage = () => {
               </div>
             </div>
 
-            <div className='relative w-full max-w-[760px] mx-auto lg:h-[560px] flex items-center justify-center lg:pr-24'>
-              {/* Background Image */}
-              <div className="relative w-full h-0 pb-[100%] sm:pb-[85%] lg:pb-[50%]">
-                <div className="absolute z-10 bottom-0 right-0  lg:-bottom-16 lg:right-19">
-                  <Image
-                    src='/images/solutions/4/iphone.png'
-                    alt='iPhone'
-                    width={250}
-                    height={500}
-                    className='object-contain w-[60%] h-[80%] sm:w-[80%] lg:w-[95%] lg:h-[100%]  sm:h-auto'
-                  />
-                </div>
-
-                <div className="absolute z-10 bottom-0 right-12 lg:-bottom-14 lg:right-12">
-                  <Image
-                    src='/images/solutions/4/Woman.png'
-                    alt='Woman'
-                    width={260}
-                    height={340}
-                    className='object-contain w-[48%] sm:w-[54%] lg:w-[72%] lg:h-[95%]  h-auto'
-                  />
-                </div>
-                <div className="absolute z-0 bottom-0 right-4 lg:-bottom-16 lg:right-12">
-                  <Image
-                    src='/images/solutions/4/Curves 1.png'
-                    alt='Background'
-                    className='object-contain w-[60%] sm:w-[70%] lg:w-[95%] lg:h-[90%]  h-auto'
-                    width={320}
-                    height={300}
-                  />
-
-                </div>
-              </div>
-
-            </div>
-
-            {/* <Image
-                src='/images/solutions/4/Curves 1.png'
-                alt='Background'
-                className='absolute top-0 md:top-32 right-[10%] md:right-[160px] z-0 w-[240px] md:w-[320px] max-w-full h-auto'
-                width={320}
-                height={300}
-              /> */}
-
-            {/* Woman Image */}
-            {/* <div className='absolute bottom-12 md:bottom-[-32px] left-1/2 md:left-[238px] -translate-x-1/2 md:translate-x-0 z-20 w-[180px] md:w-[260px]'>
+            <div className="relative w-full h-[350px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0">
+              {/* Background tree */}
+              <div className="absolute bottom-0 left-[9.5%] z-10 w-[42%] sm:w-[48%] lg:w-[32%]">
                 <Image
-                  src='/images/solutions/4/Woman.png'
-                  alt='Woman'
-                  width={260}
-                  height={340}
-                  className='object-contain max-w-full h-auto w-full'
+                  src="/images/solutions/4/Curves 1.png"
+                  alt="Background tree"
+                  width={320}
+                  height={300}
+                  className="h-auto w-full object-contain"
                 />
-              </div> */}
-
-            {/* iPhone Image */}
-            {/* <div className='absolute top-[20px] md:top-[60px] right-[5%] md:right-[60px] z-10 w-[140px] md:w-[250px]'>
+              </div>
+              {/* iPhone image */}
+              <div className="absolute bottom-0 left-[25%] z-20 w-[32%] sm:w-[40%] lg:w-[25%]">
                 <Image
-                  src='/images/solutions/4/iphone.png'
-                  alt='iPhone'
+                  src="/images/solutions/4/iphone.png"
+                  alt="Iphone image"
                   width={250}
                   height={500}
-                  className='object-contain h-auto w-full max-w-full'
+                  className="h-auto w-full object-contain"
                 />
-              </div> */}
+              </div>
+              {/* Woman on chair */}
+              <div className="absolute bottom-0 left-[9%] z-30 w-[32%] sm:w-[36%] lg:w-[25%]">
+                <Image
+                  src="/images/solutions/4/Woman.png"
+                  alt="woman on chair"
+                  width={260}
+                  height={340}
+                  className="h-auto w-full object-contain"
+                />
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
 
-      {/* Cta Section */}
+      {/* <div className='relative w-full max-w-[760px] mx-auto lg:h-[560px] flex items-center justify-center'> */}
+      {/* Background Image */}
+      {/* <div className="relative wh-0 pb-[95%] sm:pb-[65%] lg:pb-[lex justify-center items-center">
+                <div className="absolute z-10 bottom-0 right-4 md:-bottom-8 lg:-bottom-16 lg:right-12">
+                <Image
+                src='/images/solutions/4/iphone.png'
+                alt='iPhone'
+                    width={250}
+                    height={500}
+                    className='object-contain w-[60%] h-[80%] sm:w-[80%] lg:w-[95%] lg:h-[100%] sm:h-auto'
+                    />
+                    </div>
+                    
+                    <div className="absolute z-10 bottom-0 right-16 md:-bottom-8 lg:-bottom-14 lg:right-12">
+                    <Image
+                    src='/images/solutions/4/Woman.png'
+                    alt='Woman'
+                    width={260}
+                    height={340}
+                    className='object-contain w-[48%] sm:w-[54%] lg:w-[72%] lg:h-[95%] h-auto'
+                    />
+                    </div>
+                    
+                    <div className="absolute z-0 bottom-0 right-8 md:-bottom-4 lg:-bottom-16 lg:right-12">
+                    <Image
+                    src='/images/solutions/4/Curves 1.png'
+                    alt='Background'
+                    className='object-contain w-[60%] sm:w-[70%] lg:w-[95%] lg:h-[86%] h-auto'
+                    width={320}
+                    height={300}
+                    />
+                    </div>
+              </div>
+            </div> */}
+
+
+      {/* Cta Section  */}
+
       <div className='py-[96px] w-full mt-12 md:mt-0 bg-brand-light'>
         <div className='container flex flex-col justify-center items-center'>
           <h1 className='text-4xl text-center font-semibold text-brand-dark'>
