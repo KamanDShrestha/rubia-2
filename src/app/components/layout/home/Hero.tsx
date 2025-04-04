@@ -37,7 +37,7 @@ const Hero = () => {
             width={200}
             height={300}
             alt='cute-character'
-            className='absolute top-[-40px] left-[-55px] hidden xl:block group-hover:-translate-y-16 ease-out transition-all duration-300'
+            className='absolute top-[-40px] left-[-55px] hidden xl:block group-hover:scale-125 group-hover:-translate-y-6 ease-out transition-all duration-300'
           />
           <Image
             src={'/images/hero/phone-screen.png'}
@@ -51,7 +51,7 @@ const Hero = () => {
             width={200}
             height={300}
             alt='tablet-screen'
-            className='lg:absolute w-full group-hover:scale-[1.1] group-hover:rotate-6 ease-out transition-all duration-300'
+            className='lg:absolute w-full group-hover:scale-[1.1] group-hover:rotate-[4deg] ease-out transition-all duration-300'
           />
 
           {/* After Image as Background */}
