@@ -3,7 +3,7 @@ import Button from '../../core/Button';
 
 const Hero = () => {
   return (
-    <div className='md:h-[calc(100vh-108px)] flex justify-center flex-col items-center'>
+    <div className='2xl:h-[calc(100vh-108px)] md:h-[700px] flex justify-center flex-col items-center'>
       <div className='container md:flex md:justify-between items-center flex-col-reverse lg:flex-row justify-center space-y-12 lg:space-y-0'>
         <div className='block md:hidden'>
           <img
@@ -15,7 +15,7 @@ const Hero = () => {
           />
         </div>
         <header className='text-center md:text-left'>
-          <h1 className='text-6xl text-brand-dark leading-[64px] lg:leading-[72px]'>
+          <h1 className='text-4xl md:text-6xl text-brand-dark leading-none lg:leading-[72px]'>
             Turn Your <span className='font-bold italic'>Passion</span>{' '}
             <br></br> Into Influence - <br></br>
             <span className='font-bold italic'> And Income</span>
@@ -37,7 +37,7 @@ const Hero = () => {
             width={200}
             height={300}
             alt='cute-character'
-            className='absolute top-[-40px] left-[-55px] hidden xl:block group-hover:-translate-y-16 ease-out transition-all duration-300'
+            className='absolute top-[-40px] left-[-55px] hidden xl:block group-hover:scale-125 group-hover:-translate-y-6 ease-out transition-all duration-300'
           />
           <Image
             src={'/images/hero/phone-screen.png'}
@@ -51,7 +51,7 @@ const Hero = () => {
             width={200}
             height={300}
             alt='tablet-screen'
-            className='lg:absolute w-full group-hover:scale-[1.1] group-hover:rotate-6 ease-out transition-all duration-300'
+            className='lg:absolute w-full group-hover:scale-[1.1] group-hover:rotate-[4deg] ease-out transition-all duration-300'
           />
 
           {/* After Image as Background */}

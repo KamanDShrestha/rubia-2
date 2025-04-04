@@ -87,14 +87,14 @@ const Benefits = () => {
                 className="transition-transform z-10 duration-300 ease-in-out transform scale-100 group-hover:scale-[2] group-hover:translate-y-[15%] group-hover:object-[left_1%]"
               />
             </div> */}
-            <div className='relative flex justify-center items-center  max-w-[760px] my-8 lg:my-0'>
+            <div className='relative flex justify-center items-center  max-w-[760px] my-8 lg:my-0 group'>
               {/* Tablet Screen */}
               <Image
                 src='/images/benefits/tablet screen.png'
                 alt='Tablet Screen'
                 width={760}
                 height={600}
-                className='w-[80%] sm:w-[90%] lg:w-[720px] relative z-10  lg:bottom-20'
+                className='w-[80%] sm:w-[90%] lg:w-[720px] relative z-10  lg:bottom-20 group-hover:translate-x-4 transition-all ease-out duration-300'
               />
 
               {/* Social Media Names */}
@@ -103,7 +103,7 @@ const Benefits = () => {
                 alt='Social Media Names'
                 width={230}
                 height={190}
-                className='w-20 sm:w-[160px] sm:right-6 sm:left-[-6%] md:-left-[px] left-[-2%] bottom-[0%]  lg:w-[216px] absolute lg:bottom-8  z-10'
+                className='w-20 sm:w-[160px] sm:right-6 sm:left-[-6%] md:-left-[px] left-[-2%] bottom-[0%]  lg:w-[216px] absolute lg:bottom-8  z-10 group-hover:rotate-[5deg] transition-all ease-out duration-300'
               />
 
               {/* "ANY SOCIAL MEDIA" Text */}
@@ -112,7 +112,7 @@ const Benefits = () => {
                 alt='ANY SOCIAL MEDIA'
                 width={140}
                 height={150}
-                className='sm:w-20 sm:-left-4 w-9 lg:left-[-60px] left-5 absolute lg:top-[50px] z-0'
+                className='sm:w-20 sm:-left-4 w-9 lg:left-[-60px] left-5 absolute lg:top-[50px] z-0 group-hover:-translate-x-4 group-hover:rotate-3 transition-all ease-out duration-300'
               />
             </div>
           </div>
