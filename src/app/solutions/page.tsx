@@ -25,7 +25,7 @@ const SolutionsPage = () => {
       <div className='max-w-[1440px] mx-auto container'>
         <div className='md:py-[64px]'>
           <div className='md:flex items-center justify-between'>
-            <div className='pl-4 lg:pl-[128px] flex flex-col justify-start items-start text-left'>
+            <div className='pl-4 sm:pl-8 flex flex-col justify-start items-start text-left'>
               <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
                 <Image src='/icons/manage.svg' alt='' width={20} height={20} />
               </div>
@@ -100,7 +100,7 @@ const SolutionsPage = () => {
         <div className='md:py-[64px]'>
           <div className='md:flex items-center justify-between flex-row-reverse'>
             {/* Text Section */}
-            <div className='pl-4 md:pl-[96px] flex flex-col justify-start items-start text-left'>
+            <div className='pl-4 md:pl-16 lg:pl-8 flex flex-col justify-start items-start text-left'>
               <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
                 <Image src='/icons/manage.svg' alt='' width={20} height={20} />
               </div>
@@ -133,7 +133,7 @@ const SolutionsPage = () => {
             </div>
 
             {/* Image Section */}
-            <div className='mt-5 relative flex flex-col items-center'>
+            <div className='mt-5 relative flex flex-col items-center py-8'>
               <div className='relative left-4'>
                 <div className='absolute -bottom-8 -left-5 z-10 w-[54%]'>
                   <Image
@@ -158,9 +158,9 @@ const SolutionsPage = () => {
           </div>
         </div>
 
-        <div className='md:py-[64px]'>
-          <div className='md:flex items-center justify-between'>
-            <div className='pl-4 md:pl-[96px] flex flex-col justify-start items-start text-left'>
+        <div className='py-4 md:py-[64px]'>
+          <div className='md:flex items-center justify-between gap-12'>
+            <div className='pl-4 sm:pl-8 flex flex-col justify-start items-start text-left'>
               <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
                 <Image src='/icons/manage.svg' alt='' width={20} height={20} />
               </div>
@@ -203,7 +203,7 @@ const SolutionsPage = () => {
                 height={560}
               />
             </div> */}
-            <div className='relative flex justify-center items-center w-full py-8 max-w-[720px] '>
+            <div className='relative flex justify-center items-center w-full py-8 max-w-[720px]'>
               {/* Main container with the YouTube image */}
               <div className='relative w-full z-0'>
                 <Image
@@ -240,9 +240,9 @@ const SolutionsPage = () => {
         </div>
 
         <div className='md:py-[64px]'>
-          <div className='flex flex-col items-center justify-between md:flex-row-reverse gap-5'>
+          <div className='flex flex-col items-center justify-between md:flex-row-reverse'>
             {/* Text Section */}
-            <div className=' flex flex-col justify-start items-start text-left px-2'>
+            <div className=' flex flex-col justify-start items-start text-left pl-4 lg:pl-0 lg:pb-24'>
               <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
                 <Image src='/icons/manage.svg' alt='' width={20} height={20} />
               </div>
@@ -273,34 +273,43 @@ const SolutionsPage = () => {
               </div>
             </div>
 
-            <div className='relative w-full h-[400px] sm:h-[560px] flex items-center justify-center mt-36 sm:mt-0'>
+            <div className='relative w-full max-w-[760px] mx-auto lg:h-[560px] flex items-center justify-center lg:pr-24'>
               {/* Background Image */}
-              <div className='relative h-full w-[400px]'>
-                <Image
-                  src='/images/solutions/4/Curves 1.png'
-                  alt='Background'
-                  className='absolute lg:w-[280px] bottom-0'
-                  width={320}
-                  height={300}
-                />
+              <div className="relative w-full h-0 pb-[100%] sm:pb-[85%] lg:pb-[50%]">
+                <div className="absolute z-10 bottom-0 right-0  lg:-bottom-16 lg:right-19">
+                  <Image
+                    src='/images/solutions/4/iphone.png'
+                    alt='iPhone'
+                    width={250}
+                    height={500}
+                    className='object-contain w-[60%] h-[80%] sm:w-[80%] lg:w-[95%] lg:h-[100%]  sm:h-auto'
+                  />
+                </div>
 
-                <Image
-                  src='/images/solutions/4/iphone.png'
-                  alt='iPhone'
-                  width={250}
-                  height={500}
-                  className='absolute lg:w-[250px] bottom-0 right-0'
-                />
-                <Image
-                  src='/images/solutions/4/Woman.png'
-                  alt='Woman'
-                  width={260}
-                  height={340}
-                  className='absolute lg:w-[250px] bottom-0'
-                />
+                <div className="absolute z-10 bottom-0 right-12 lg:-bottom-14 lg:right-12">
+                  <Image
+                    src='/images/solutions/4/Woman.png'
+                    alt='Woman'
+                    width={260}
+                    height={340}
+                    className='object-contain w-[48%] sm:w-[54%] lg:w-[72%] lg:h-[95%]  h-auto'
+                  />
+                </div>
+                <div className="absolute z-0 bottom-0 right-4 lg:-bottom-16 lg:right-12">
+                  <Image
+                    src='/images/solutions/4/Curves 1.png'
+                    alt='Background'
+                    className='object-contain w-[60%] sm:w-[70%] lg:w-[95%] lg:h-[90%]  h-auto'
+                    width={320}
+                    height={300}
+                  />
+
+                </div>
               </div>
 
-              {/* <Image
+            </div>
+
+            {/* <Image
                 src='/images/solutions/4/Curves 1.png'
                 alt='Background'
                 className='absolute top-0 md:top-32 right-[10%] md:right-[160px] z-0 w-[240px] md:w-[320px] max-w-full h-auto'
@@ -308,8 +317,8 @@ const SolutionsPage = () => {
                 height={300}
               /> */}
 
-              {/* Woman Image */}
-              {/* <div className='absolute bottom-12 md:bottom-[-32px] left-1/2 md:left-[238px] -translate-x-1/2 md:translate-x-0 z-20 w-[180px] md:w-[260px]'>
+            {/* Woman Image */}
+            {/* <div className='absolute bottom-12 md:bottom-[-32px] left-1/2 md:left-[238px] -translate-x-1/2 md:translate-x-0 z-20 w-[180px] md:w-[260px]'>
                 <Image
                   src='/images/solutions/4/Woman.png'
                   alt='Woman'
@@ -319,8 +328,8 @@ const SolutionsPage = () => {
                 />
               </div> */}
 
-              {/* iPhone Image */}
-              {/* <div className='absolute top-[20px] md:top-[60px] right-[5%] md:right-[60px] z-10 w-[140px] md:w-[250px]'>
+            {/* iPhone Image */}
+            {/* <div className='absolute top-[20px] md:top-[60px] right-[5%] md:right-[60px] z-10 w-[140px] md:w-[250px]'>
                 <Image
                   src='/images/solutions/4/iphone.png'
                   alt='iPhone'
@@ -329,7 +338,6 @@ const SolutionsPage = () => {
                   className='object-contain h-auto w-full max-w-full'
                 />
               </div> */}
-            </div>
           </div>
         </div>
       </div>
