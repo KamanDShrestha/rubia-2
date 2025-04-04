@@ -22,179 +22,172 @@ const SolutionsPage = () => {
       </div>
 
       {/* Solutions */}
-      <div className='max-w-[1440px] mx-auto container'>
-        <div className='md:py-[64px]'>
-          <div className='md:flex items-center justify-between'>
-            <div className='pl-4 sm:pl-8 flex flex-col justify-start items-start text-left'>
-              <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
-                <Image src='/icons/manage.svg' alt='' width={20} height={20} />
-              </div>
-
-              <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
-                Social Media Strategy & Optimization{' '}
-              </h1>
-
-              <p className='mt-4 text-lg'>
-                We’ll help you create a complete strategy. Every bit, every
-                detail, chose your platforms and watch yourself become a
-                professional in weeks.
-              </p>
-
-              <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
-                <PricingPoint>
-                  <span className='font-bold'>Brand Assessment: </span>Identify
-                  and create things that make you unique.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Work With The Platform: </span>{' '}
-                  Learn how to use the algorithm to your advantage.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Maximizing Conversion: </span>{' '}
-                  Funnel your audience into channels that generate income.
-                </PricingPoint>
-              </div>
+      <div className='max-w-[1440px] mx-auto container md:space-y-[64px] space-y-12 my-12'>
+        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center'>
+          <div className=' flex flex-col justify-start items-start text-left'>
+            <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
+              <Image src='/icons/manage.svg' alt='' width={20} height={20} />
             </div>
 
-            <div className='relative w-full max-w-[720px] mx-auto lg:h-[560px] flex items-center justify-center'>
-              <div className='relative w-full h-0 pb-[100%] sm:pb-[85%] lg:pb-[50%]'>
-                {/* Layer 1: Instagram Screenshot (Phone) */}
-                <div className='absolute top-[10%] right-[0%] w-[40%] sm:w-[32%] md:w-[40%] z-10 lg:w-[38%] lg:top-[0%]'>
-                  <Image
-                    src='/images/solutions/1/Insta screenshot.png'
-                    alt='Instagram Screenshot'
-                    width={320}
-                    height={640}
-                    className='w-full h-auto lg:h-[95%]'
-                  />
-                </div>
+            <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
+              Social Media Strategy & Optimization{' '}
+            </h1>
 
-                {/* Layer 2: Front Card (Instagram post) */}
-                <div className='absolute bottom-[36%] left-[5%] w-[25%] sm:w-[20%] md:w-[25%] z-20 md:bottom-[30%] lg:w-[22%] lg:bottom-[-2%] lg:left-[12%]'>
-                  <Image
-                    src='/images/solutions/1/Front card.png'
-                    alt='Front Card'
-                    width={180}
-                    height={180}
-                    className='w-full h-auto lg:h-[80%]'
-                  />
-                </div>
+            <p className='mt-4 text-lg'>
+              We’ll help you create a complete strategy. Every bit, every
+              detail, chose your platforms and watch yourself become a
+              professional in weeks.
+            </p>
 
-                {/* Layer 3: Girl Pointing */}
-                <div className='absolute top-[15%] left-[10%] w-[60%] sm:w-[50%] md:w-[60%] lg:w-[55%] z-10 lg:left-[18%]'>
-                  <Image
-                    src='/images/solutions/1/Girl pointing.png'
-                    alt='Girl Pointing'
-                    width={400}
-                    height={650}
-                    className='w-full h-auto lg:h-[80%]'
-                  />
-                </div>
-              </div>
+            <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
+              <PricingPoint>
+                <span className='font-bold'>Brand Assessment: </span>Identify
+                and create things that make you unique.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Work With The Platform: </span>{' '}
+                Learn how to use the algorithm to your advantage.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Maximizing Conversion: </span>{' '}
+                Funnel your audience into channels that generate income.
+              </PricingPoint>
             </div>
           </div>
-        </div>
 
-        <div className='md:py-[64px]'>
-          <div className='md:flex items-center justify-between flex-row-reverse'>
-            {/* Text Section */}
-            <div className='pl-4 md:pl-16 lg:pl-8 flex flex-col justify-start items-start text-left'>
-              <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
-                <Image src='/icons/manage.svg' alt='' width={20} height={20} />
-              </div>
-
-              <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
-                Single Campaign Promotion
-              </h1>
-
-              <p className='mt-4 text-lg'>
-                Need to promote a project, product or something else? This is
-                the one for you.
-              </p>
-
-              <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
-                <PricingPoint>
-                  <span className='font-bold'>Explore Possibilities:</span>{' '}
-                  Evaluate all possible ways to promote your project.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Step By Step Plan: </span> Create
-                  an effective plan that maximizes ROI.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Execution: </span> Execute each
-                  step perfectly with our help, creating a snowball effect.
-                </PricingPoint>
-              </div>
-            </div>
-
-            {/* Image Section */}
-            <div className='mt-5 relative flex flex-col items-center py-8'>
-              <div className='relative left-4'>
-                <div className='absolute -bottom-8 -left-5 z-10 w-[54%]'>
-                  <Image
-                    src='/images/solutions/2/Group 1.png'
-                    alt='Animated character with barbell'
-                    width={300}
-                    height={350}
-                    className='w-full h-auto lg:h-[80%]'
-                  />
-                </div>
-
-                {/* iPad container */}
+          <div className='relative w-full max-w-[720px] mx-auto lg:h-[560px] flex items-center justify-center'>
+            <div className='relative w-full h-0 pb-[100%] sm:pb-[80%] '>
+              {/* Layer 1: Instagram Screenshot (Phone) */}
+              <div className='absolute top-[10%] right-[0%] w-[40%] sm:w-[32%] md:w-[40%] z-10 lg:w-[38%] lg:top-[0%]'>
                 <Image
-                  src='/images/solutions/2/ipad.png'
-                  alt='iPad device'
-                  width={600}
-                  height={450}
-                  className='w-full h-auto'
+                  src='/images/solutions/1/Insta screenshot.png'
+                  alt='Instagram Screenshot'
+                  width={320}
+                  height={640}
+                  className='w-full h-auto lg:h-[95%]'
+                />
+              </div>
+
+              {/* Layer 2: Front Card (Instagram post) */}
+              <div className='absolute bottom-[36%] left-[5%] w-[25%] sm:w-[20%] md:w-[25%] z-20 md:bottom-[30%] lg:w-[30%] lg:bottom-[28%] lg:left-[2%]'>
+                <Image
+                  src='/images/solutions/1/Front card.png'
+                  alt='Front Card'
+                  width={180}
+                  height={180}
+                  className='w-full h-auto lg:h-[80%]'
+                />
+              </div>
+
+              {/* Layer 3: Girl Pointing */}
+              <div className='absolute top-[15%] left-[10%] w-[60%] sm:w-[50%] md:w-[60%] lg:w-[55%] z-10 lg:left-[18%]'>
+                <Image
+                  src='/images/solutions/1/Girl pointing.png'
+                  alt='Girl Pointing'
+                  width={400}
+                  height={650}
+                  className='w-full h-auto lg:h-[80%]'
                 />
               </div>
             </div>
           </div>
         </div>
 
-        <div className='py-4 md:py-[64px]'>
-          <div className='md:flex items-center justify-between gap-12'>
-            <div className='pl-4 sm:pl-8 flex flex-col justify-start items-start text-left'>
-              <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
-                <Image src='/icons/manage.svg' alt='' width={20} height={20} />
+        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col-reverse items-center pb-11'>
+          <div className='mt-5 relative flex flex-col items-center py-8'>
+            <div className='relative left-4'>
+              <div className='absolute -bottom-8 -left-5 z-10 w-[54%]'>
+                <Image
+                  src='/images/solutions/2/Group 1.png'
+                  alt='Animated character with barbell'
+                  width={300}
+                  height={350}
+                  className='w-full h-auto lg:h-[80%]'
+                />
               </div>
 
-              <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
-                Brand & Unique Edge Development{' '}
-              </h1>
-
-              <p className='mt-4 text-lg'>
-                Start getting some actual results, by maximizing your advantages
-                over the competition.
-              </p>
-
-              <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
-                <PricingPoint>
-                  <span className='font-bold'>Explore Niches: </span> Analyze
-                  and explore different possible niches for your persona.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Upgrade Your Personality: </span>{' '}
-                  Recreate your personality to stand out.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>
-                    Analyze Your Target Audience:
-                  </span>{' '}
-                  Get to know your audience, and feed them the right content.
-                </PricingPoint>
-              </div>
+              {/* iPad container */}
+              <Image
+                src='/images/solutions/2/ipad.png'
+                alt='iPad device'
+                width={600}
+                height={450}
+                className='w-full h-auto'
+              />
+            </div>
+          </div>
+          {/* Text Section */}
+          <div className='flex flex-col justify-start items-start text-left'>
+            <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
+              <Image src='/icons/manage.svg' alt='' width={20} height={20} />
             </div>
 
-            {/* <div>
+            <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
+              Single Campaign Promotion
+            </h1>
+
+            <p className='mt-4 text-lg'>
+              Need to promote a project, product or something else? This is the
+              one for you.
+            </p>
+
+            <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
+              <PricingPoint>
+                <span className='font-bold'>Explore Possibilities:</span>{' '}
+                Evaluate all possible ways to promote your project.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Step By Step Plan: </span> Create an
+                effective plan that maximizes ROI.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Execution: </span> Execute each step
+                perfectly with our help, creating a snowball effect.
+              </PricingPoint>
+            </div>
+          </div>
+
+          {/* Image Section */}
+        </div>
+
+        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center lg:pb-[7rem]'>
+          <div className=' flex flex-col justify-start items-start text-left'>
+            <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
+              <Image src='/icons/manage.svg' alt='' width={20} height={20} />
+            </div>
+
+            <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
+              Brand & Unique Edge Development{' '}
+            </h1>
+
+            <p className='mt-4 text-lg'>
+              Start getting some actual results, by maximizing your advantages
+              over the competition.
+            </p>
+
+            <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
+              <PricingPoint>
+                <span className='font-bold'>Explore Niches: </span> Analyze and
+                explore different possible niches for your persona.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Upgrade Your Personality: </span>{' '}
+                Recreate your personality to stand out.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Analyze Your Target Audience:</span>{' '}
+                Get to know your audience, and feed them the right content.
+              </PricingPoint>
+            </div>
+          </div>
+
+          {/* <div>
               <Image
                 alt="Solution"
                 className="mt-8 md:mt-0 pr-4 md:pr-0 pl-4 md:pl-0"
@@ -203,109 +196,107 @@ const SolutionsPage = () => {
                 height={560}
               />
             </div> */}
-            <div className='relative flex justify-center items-center w-full py-8 max-w-[720px]'>
-              {/* Main container with the YouTube image */}
-              <div className='relative w-full z-0'>
+          <div className='relative flex justify-center items-center w-full py-8 max-w-[720px]'>
+            {/* Main container with the YouTube image */}
+            <div className='relative w-full z-0'>
+              <Image
+                src='/images/solutions/3/Youtube.png'
+                alt='YouTube interface'
+                width={800}
+                height={394}
+                className='object-contain w-full'
+              />
+              {/* Woman Image - positioned to the left */}
+              <div className='absolute left-0 bottom-0 z-10 w-[24%] '>
                 <Image
-                  src='/images/solutions/3/Youtube.png'
-                  alt='YouTube interface'
-                  width={800}
-                  height={394}
-                  className='object-contain w-full'
+                  src='/images/solutions/3/Woman.png'
+                  alt='Woman with tablet'
+                  width={250}
+                  height={350}
+                  className='object-contain w-full h-auto  lg:h-[70%] md:h-[32%] '
                 />
-                {/* Woman Image - positioned to the left */}
-                <div className='absolute left-0 bottom-0 z-10 w-[24%] '>
-                  <Image
-                    src='/images/solutions/3/Woman.png'
-                    alt='Woman with tablet'
-                    width={250}
-                    height={350}
-                    className='object-contain w-full h-auto  lg:h-[70%] md:h-[32%] '
-                  />
-                </div>
+              </div>
 
-                {/* Man Image - positioned to the right */}
-                <div className='absolute md:-right-10 -right-4 z-10 bottom-0 w-[40%]'>
-                  <Image
-                    src='/images/solutions/3/Man.png'
-                    alt='Man in sports attire'
-                    width={240}
-                    height={580}
-                    className='object-contain w-full h-auto lg:h-[95%]  md:h-[40%]'
-                  />
-                </div>
+              {/* Man Image - positioned to the right */}
+              <div className='absolute md:-right-10 -right-4 z-10 bottom-0 w-[40%]'>
+                <Image
+                  src='/images/solutions/3/Man.png'
+                  alt='Man in sports attire'
+                  width={240}
+                  height={580}
+                  className='object-contain w-full h-auto lg:h-[95%]  md:h-[40%]'
+                />
               </div>
             </div>
           </div>
         </div>
 
-        <div className='md:py-[64px]'>
-          <div className='flex flex-col items-center justify-between md:flex-row-reverse'>
-            {/* Text Section */}
-            <div className=' flex flex-col justify-start items-start text-left pl-4 sm:pl-0 lg:pb-24'>
-              <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
-                <Image src='/icons/manage.svg' alt='' width={20} height={20} />
-              </div>
+        <div className='md:grid md:grid-cols-2  md:gap-12 flex flex-col-reverse items-center'>
+          {/* Text Section */}
 
-              <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
-                Direct Messaging & Community Management{' '}
-              </h1>
-
-              <p className='mt-4 text-lg'>
-                We help you build real relationships with your audience:
-              </p>
-
-              <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
-                <PricingPoint>
-                  <span className='font-bold'>24/7 Engagement: </span> We’ll
-                  help you respond to messages and comments quickly.
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Loyal Fanbase Growth: </span> Turn
-                  casual followers into dedicated fans.{' '}
-                </PricingPoint>
-
-                <PricingPoint>
-                  <span className='font-bold'>Community Building: </span> Keep
-                  your audience engaged and create a loyal cult.
-                </PricingPoint>
-              </div>
-            </div>
-
-            <div className="relative w-full xl:w-[760px] h-[350px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0">
-              {/* Background tree */}
-              <div className="absolute bottom-0 left-[9.5%] z-10 w-[42%] sm:w-[48%] lg:w-[32%]">
+          <div className='relative w-full xl:w-[760px] h-[350px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0 mx-auto'>
+            {/* Background tree */}
+            <div className='relative w-full xl:w-[760px] h-[350px] sm:h-96 pl-16'>
+              <div className='absolute bottom-0 left-[17.5%] z-10 w-[42%] sm:w-[48%] lg:w-[44%]'>
                 <Image
-                  src="/images/solutions/4/Curves 1.png"
-                  alt="Background tree"
+                  src='/images/solutions/4/Curves 1.png'
+                  alt='Background tree'
                   width={320}
                   height={300}
-                  className="h-auto w-full object-contain"
+                  className='h-auto w-full object-contain'
                 />
               </div>
               {/* iPhone image */}
-              <div className="absolute bottom-0 left-[25%] z-20 w-[32%] sm:w-[40%] lg:w-[25%]">
+              <div className='absolute bottom-0 left-[49%] z-20 w-[32%] sm:w-[30%]'>
                 <Image
-                  src="/images/solutions/4/iphone.png"
-                  alt="Iphone image"
+                  src='/images/solutions/4/iphone.png'
+                  alt='Iphone image'
                   width={250}
                   height={500}
-                  className="h-auto w-full object-contain"
+                  className='h-auto w-full object-contain'
                 />
               </div>
               {/* Woman on chair */}
-              <div className="absolute bottom-0 left-[9%] z-30 w-[32%] sm:w-[36%] lg:w-[25%]">
+              <div className='absolute bottom-0 left-[20%] md:left-[15%] z-30 w-[32%] sm:w-[36%] lg:w-[40%]'>
                 <Image
-                  src="/images/solutions/4/Woman.png"
-                  alt="woman on chair"
+                  src='/images/solutions/4/Woman.png'
+                  alt='woman on chair'
                   width={260}
                   height={340}
-                  className="h-auto w-full object-contain"
+                  className='h-auto w-full object-contain'
                 />
               </div>
             </div>
+          </div>
+          <div className=' flex flex-col justify-start items-start text-left lg:pb-24'>
+            <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
+              <Image src='/icons/manage.svg' alt='' width={20} height={20} />
+            </div>
 
+            <h1 className='text-3xl mt-5 text-brand-dark font-semibold'>
+              Direct Messaging & Community Management{' '}
+            </h1>
+
+            <p className='mt-4 text-lg'>
+              We help you build real relationships with your audience:
+            </p>
+
+            <div className='pl-4 text-lg flex flex-col space-y-5 pt-8'>
+              <PricingPoint>
+                <span className='font-bold'>24/7 Engagement: </span> We’ll help
+                you respond to messages and comments quickly.
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Loyal Fanbase Growth: </span> Turn
+                casual followers into dedicated fans.{' '}
+              </PricingPoint>
+
+              <PricingPoint>
+                <span className='font-bold'>Community Building: </span> Keep
+                your audience engaged and create a loyal cult.
+              </PricingPoint>
+            </div>
           </div>
         </div>
       </div>
@@ -344,7 +335,6 @@ const SolutionsPage = () => {
                     </div>
               </div>
             </div> */}
-
 
       {/* Cta Section  */}
 
