@@ -273,7 +273,7 @@ const SolutionsPage = () => {
               </div>
             </div>
 
-            <div className="relative w-full xl:w-[760px] h-[300px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0">
+            <div className="relative w-full xl:w-[760px] h-[350px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0">
               {/* Background tree */}
               <div className="absolute bottom-0 left-[9.5%] z-10 w-[42%] sm:w-[48%] lg:w-[32%]">
                 <Image
