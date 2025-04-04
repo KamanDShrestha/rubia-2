@@ -19,7 +19,7 @@ const Contact = () => {
               </p>
             </header>
 
-            <div className='block lg:hidden my-8'>
+            <div className=' lg:hidden my-8 mx-auto flex justify-center'>
               <Image
                 src='/images/contact.png'
                 alt='Contact'
