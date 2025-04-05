@@ -154,7 +154,7 @@ const SolutionsPage = () => {
           {/* Image Section */}
         </div>
 
-        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center lg:pb-[7rem]'>
+        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center pb-[3rem]'>
           <div className=' flex flex-col justify-start items-start text-left'>
             <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
               <Image src='/icons/manage.svg' alt='' width={20} height={20} />
@@ -237,7 +237,7 @@ const SolutionsPage = () => {
           <div className='relative w-full xl:w-[760px] h-[350px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0 mx-auto'>
             {/* Background tree */}
             <div className='relative w-full xl:w-[760px] h-[350px] sm:h-96 pl-16'>
-              <div className='absolute bottom-0 left-[17.5%] z-10 w-[42%] sm:w-[48%] lg:w-[44%]'>
+              <div className='absolute bottom-0 left-[17.5%] z-10 w-[42%] sm:w-[48%] lg:w-[35%]'>
                 <Image
                   src='/images/solutions/4/Curves 1.png'
                   alt='Background tree'
@@ -247,7 +247,7 @@ const SolutionsPage = () => {
                 />
               </div>
               {/* iPhone image */}
-              <div className='absolute bottom-0 left-[49%] z-20 w-[32%] sm:w-[30%]'>
+              <div className='absolute bottom-0 left-[40%] z-20 w-[32%] sm:w-[25%]'>
                 <Image
                   src='/images/solutions/4/iphone.png'
                   alt='Iphone image'
@@ -257,7 +257,7 @@ const SolutionsPage = () => {
                 />
               </div>
               {/* Woman on chair */}
-              <div className='absolute bottom-0 left-[20%] md:left-[15%] z-30 w-[32%] sm:w-[36%] lg:w-[40%]'>
+              <div className='absolute bottom-0 left-[20%] md:left-[15%] z-30 w-[32%] sm:w-[36%] lg:w-[32%]'>
                 <Image
                   src='/images/solutions/4/Woman.png'
                   alt='woman on chair'
@@ -268,7 +268,7 @@ const SolutionsPage = () => {
               </div>
             </div>
           </div>
-          <div className=' flex flex-col justify-start items-start text-left lg:pb-24'>
+          <div className=' flex flex-col justify-start items-start text-left lg:pb-12'>
             <div className='w-12 h-12 mt-9 rounded-full bg-brand-light flex justify-center items-center'>
               <Image src='/icons/manage.svg' alt='' width={20} height={20} />
             </div>
