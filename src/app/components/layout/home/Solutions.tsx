@@ -50,7 +50,7 @@ const Solutions = () => {
 
       <div className='mt-16 lg:flex lg:flex-row-reverse '>
         {/* Image Stacking with Animation */}
-        <div className='relative lg:w-3/5  h-[528px] lg:ml-[10%] mt-12 lg:mt-0 flex justify-center items-center sm:translate-x-[25%] lg:translate-x-[25%]'>
+        <div className='relative lg:w-3/5  h-[528px] lg:ml-[10%] mt-12 lg:mt-0 flex justify-center items-center sm:translate-x-[25%] lg:translate-x-0'>
           {images.map((src, index) => {
             const isSelected = index === selected;
             const isBehind = index < selected;
