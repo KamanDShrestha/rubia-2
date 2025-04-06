@@ -22,7 +22,7 @@ const SolutionsPage = () => {
       </div>
 
       {/* Solutions */}
-      <div className='max-w-[1440px] mx-auto container md:space-y-[64px] space-y-12 my-12'>
+      <div className='max-w-[1440px] mx-auto container md:space-y-[64px] space-y-2 my-12'>
         <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center'>
           <div className=' flex flex-col justify-start items-start text-left'>
             <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
@@ -95,7 +95,7 @@ const SolutionsPage = () => {
           </div>
         </div>
 
-        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col-reverse items-center pb-11'>
+        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col-reverse items-center md:pb-11'>
           <div className='mt-5 relative flex flex-col items-center py-8'>
             <div className='relative left-4'>
               <div className='absolute -bottom-8 -left-5 z-10 w-[54%]'>
@@ -154,7 +154,7 @@ const SolutionsPage = () => {
           {/* Image Section */}
         </div>
 
-        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center pb-[3rem]'>
+        <div className='md:grid md:grid-cols-2 gap-8 md:gap-12 flex flex-col items-center md:pb-[3rem]'>
           <div className=' flex flex-col justify-start items-start text-left'>
             <div className='w-12 h-12 mt-9  rounded-full bg-brand-light flex justify-center items-center'>
               <Image src='/icons/manage.svg' alt='' width={20} height={20} />
