@@ -237,7 +237,7 @@ const SolutionsPage = () => {
           <div className='relative w-full xl:w-[760px] h-[350px] sm:h-96 flex items-center justify-center sm:mt-8 lg:mt-0 mx-auto'>
             {/* Background tree */}
             <div className='relative w-full xl:w-[760px] h-[350px] sm:h-96 pl-16'>
-              <div className='absolute bottom-0 left-[17.5%] z-10 w-[42%] sm:w-[48%] lg:w-[35%]'>
+              <div className='absolute bottom-0 left-[17.5%] z-10 w-[42%] sm:w-[48%] md:w-[48%] xl:w-[35%]'>
                 <Image
                   src='/images/solutions/4/Curves 1.png'
                   alt='Background tree'
@@ -247,7 +247,7 @@ const SolutionsPage = () => {
                 />
               </div>
               {/* iPhone image */}
-              <div className='absolute bottom-0 left-[40%] z-20 w-[32%] sm:w-[25%]'>
+              <div className='absolute bottom-0 left-[40%] md:left-[47%] xl:left-[40%] z-20 w-[32%] sm:w-[25%] xl:w-[25%] md:w-[38%]'>
                 <Image
                   src='/images/solutions/4/iphone.png'
                   alt='Iphone image'
@@ -257,7 +257,7 @@ const SolutionsPage = () => {
                 />
               </div>
               {/* Woman on chair */}
-              <div className='absolute bottom-0 left-[20%] md:left-[15%] z-30 w-[32%] sm:w-[36%] lg:w-[32%]'>
+              <div className='absolute bottom-0 left-[20%] md:left-[18%] lg:left-[18%] xl:left-[15%] z-30 w-[32%] sm:w-[36%] lg:w-[32%]'>
                 <Image
                   src='/images/solutions/4/Woman.png'
                   alt='woman on chair'
