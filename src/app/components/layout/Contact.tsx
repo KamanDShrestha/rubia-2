@@ -25,6 +25,7 @@ const Contact = () => {
                 alt='Contact'
                 width={576}
                 height={800}
+                className='rounded-xl'
               />
             </div>
 
